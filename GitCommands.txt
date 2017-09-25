@@ -1,0 +1,39 @@
+Git Hub
+	1. Code versioning Tool
+			maintains version of code
+	2. It works with branching stratergy
+		master
+			|_Integration
+					|_Staging ---> Testers Branch
+						|_ develop  --> developers branch
+								|_ Feature1
+								|_ Feature 2
+								|_ .....
+								
+								
+								
+Commands :
+===========================================================================================
+Git configurtion Commands:
+		git config --global user.email "swati.neole@gmail.com"
+		git config --global user.name "SwatiNewale"
+ 
+
+===========================================================================================
+  1. Copy fresh code clone ===> git clone "COPIED URL"
+								git clone https://github.com/SwatiNewale/test.git
+								
+ 2. Check current working branch ==> git branch
+ 3. Create New Branch ==> git checkout -b BRANCH_NAME
+ 4. check branch code status ==> git status
+ 5. Verify changes in changed files ==> git diff "FILE/PATH/NAME.txt"  | git diff
+ 6. add code changes/ add new files ==> git add .  |  git add "FILE/PATH/NAME.txt"
+ 7. Commit git code with commit message ==>   git commit -m "COMMIT MESSAGE" | git commit
+																					|_ to exit message screen on CMD press Esc and then tyoe :x! and the enter
+ 8. Now push your changes to git repo ==> git push origin "BRANCH NAME"
+ 
+ 
+ 
+ commit
+ 
+ add => commit => push
